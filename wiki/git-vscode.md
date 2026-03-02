@@ -176,14 +176,13 @@
 
 ## Detect conflicts
 
-It can happen that commits in `<branch>` on `<remote>` are different from commits
-on the `<branch>` in the cloned repo on your computer.
+It can happen that commits in `<branch>` on `<remote>` are different from commits on the `<branch>` in the cloned repo on your computer.
 
 1. Look at the [`Status Bar`](./vs-code.md#status-bar).
 
    <img alt="Commit Conflict" src="./images/vs-code/status-bar-commit-conflict.png" style="width:400px"></img>
 
-   You should see that there is a non-zero number of commits to pull from `origin/<branch>`.
+   You should see that there is a non-zero number of commits to pull from `<branch>` on `<remote>`.
 
 ## Resolve a merge conflict
 
