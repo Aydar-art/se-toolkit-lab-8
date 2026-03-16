@@ -28,7 +28,9 @@ Actions:
 
 **On a deployed VM:**
 
-1. Open in a browser: `http://<your-vm-ip-address>:<caddy-port>/docs`. Replace:
+1. Open in a browser: `http://<your-vm-ip-address>:<caddy-port>/docs`.
+
+   Replace the placeholders:
 
    - [`<your-vm-ip-address>`](./vm.md#your-vm-ip-address-placeholder)
    - [`<caddy-port>`](./caddy.md#caddy-port)
