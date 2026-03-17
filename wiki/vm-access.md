@@ -15,7 +15,7 @@
 - [Connect to the VM (LOCAL)](#connect-to-the-vm-local)
 - [Create the non-root user `<user>` (REMOTE)](#create-the-non-root-user-user-remote)
 - [Set up the `SSH` key authentication for the user `<user>` (REMOTE)](#set-up-the-ssh-key-authentication-for-the-user-user-remote)
-- [Connect to your VM by `SSH` as the user `<user>` (LOCAL)](#connect-to-your-vm-by-ssh-as-the-user-user-local)
+- [Verify that you can connect to the VM by `SSH` as the user `<user>` (LOCAL)](#verify-that-you-can-connect-to-the-vm-by-ssh-as-the-user-user-local)
 - [Harden the `SSH` config (REMOTE)](#harden-the-ssh-config-remote)
 - [Update the `SSH` config (LOCAL)](#update-the-ssh-config-local)
 - [Restart `sshd` (REMOTE)](#restart-sshd-remote)
@@ -48,7 +48,7 @@ Complete these steps:
 4. [Connect to the VM (LOCAL)](#connect-to-the-vm-local)
 5. [Create the non-root user `<user>` (REMOTE)](#create-the-non-root-user-user-remote)
 6. [Set up the `SSH` key authentication for the user `<user>` (REMOTE)](#set-up-the-ssh-key-authentication-for-the-user-user-remote)
-7. [Connect to your VM by `SSH` as the user `<user>` (LOCAL)](#connect-to-your-vm-by-ssh-as-the-user-user-local)
+7. [Verify that you can connect to the VM by `SSH` as the user `<user>` (LOCAL)](#verify-that-you-can-connect-to-the-vm-by-ssh-as-the-user-user-local)
 8. [Harden the `SSH` config (REMOTE)](#harden-the-ssh-config-remote)
 9. [Update the `SSH` config (LOCAL)](#update-the-ssh-config-local)
 10. [Restart `sshd` (REMOTE)](#restart-sshd-remote)
@@ -333,7 +333,7 @@ Complete these steps:
 
    <!-- TODO why these permissions are correct? -->
 
-## Connect to your VM by `SSH` as the user `<user>` (LOCAL)
+## Verify that you can connect to the VM by `SSH` as the user `<user>` (LOCAL)
 
 > [!NOTE]
 > Replace [`<user>`](./operating-system.md#user-placeholder) with the actual [username](./operating-system.md#username).
