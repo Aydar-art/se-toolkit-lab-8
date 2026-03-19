@@ -248,7 +248,7 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
    The output should be similar to this:
 
    ```terminal
-   10.28.0
+   10.32.1
    ```
 
 ### Common `pnpm` commands
