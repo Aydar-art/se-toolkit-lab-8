@@ -443,10 +443,10 @@ Exception: `..` references do not get a trailing `/`: `` `lab/tasks/..` ``.
 
 ## 4.25. Branch-on-remote references
 
-When referring to a branch on a remote in prose, use `` `<branch>` on `<remote>` ``:
+When referring to a branch on a remote in prose, use `` branch `<branch>` on `<remote>` ``:
 
 ```markdown
-Pull changes from `<branch>` on `<remote>`.
+Pull changes from the branch `<branch>` on `<remote>`.
 ```
 
 When the placeholder pair first appears in a section, link each part to its definition:
