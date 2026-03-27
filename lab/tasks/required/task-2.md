@@ -248,7 +248,7 @@ Both are in a single repository. The webchat plugin handles:
    instead of blocking on tooling:
 
    ```terminal
-   python - <<'PY'
+   uv run python - <<'PY'
    import asyncio
    import json
    import websockets
