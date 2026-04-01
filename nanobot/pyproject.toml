@@ -1,0 +1,20 @@
+[project]
+name = "nanobot"
+version = "0.1.0"
+description = "Nanobot gateway for LMS agent"
+requires-python = "==3.14.*"
+dependencies = [
+    "nanobot-ai @ https://github.com/HKUDS/nanobot/archive/e7d371ec1e6531b28898ec2c869ef338e8dd46ec.zip",
+    "mcp-lms",
+    "mcp-obs",
+    "nanobot-webchat",
+    "mcp-webchat",
+    "nanobot-channel-protocol",
+]
+
+[tool.uv.sources]
+mcp-lms = { workspace = true }
+mcp-obs = { workspace = true }
+nanobot-webchat = { workspace = true }
+mcp-webchat = { workspace = true }
+nanobot-channel-protocol = { workspace = true }
