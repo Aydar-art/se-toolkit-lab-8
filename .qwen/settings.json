@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker compose *)",
+      "Bash(curl *)",
+      "Bash(sleep *)",
+      "Bash(uv *)",
+      "Bash(docker run *)"
+    ]
+  },
+  "$version": 3
+}
