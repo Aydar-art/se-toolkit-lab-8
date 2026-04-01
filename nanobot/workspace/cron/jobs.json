@@ -20,8 +20,8 @@
         "to": "3c921269-e591-4196-b0e7-f9dc746753fc"
       },
       "state": {
-        "nextRunAtMs": 1775033308956,
-        "lastRunAtMs": 1775033127930,
+        "nextRunAtMs": 1775033691393,
+        "lastRunAtMs": 1775033490356,
         "lastStatus": "ok",
         "lastError": null,
         "runHistory": [
@@ -78,11 +78,23 @@
             "status": "ok",
             "durationMs": 61026,
             "error": null
+          },
+          {
+            "runAtMs": 1775033308957,
+            "status": "ok",
+            "durationMs": 61397,
+            "error": null
+          },
+          {
+            "runAtMs": 1775033490356,
+            "status": "ok",
+            "durationMs": 81037,
+            "error": null
           }
         ]
       },
       "createdAtMs": 1775031559555,
-      "updatedAtMs": 1775033188956,
+      "updatedAtMs": 1775033571393,
       "deleteAfterRun": false
     }
   ]
